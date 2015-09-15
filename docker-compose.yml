@@ -1,5 +1,5 @@
 web:
-  build: .
+  image: kevincoyle/drupal8
   volumes:
     - "./modules:/app/modules"
     - "./themes:/app/themes"
