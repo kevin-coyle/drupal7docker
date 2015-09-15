@@ -23,3 +23,7 @@ There will be two shared directories which will appear in the project root. You 
 To access drush or the drupal console just run a `docker exec -it CONTAINER_NAME drush` where the container name is what you can see in `docker ps`
 
 To make it easy you can always add a bash alias to the above command so that accessing the tools is just the same as you would natively.
+
+###Database Settings
+
+By default the script creates a database called `drupal8` with the root username and root for the password. (please note this does not intend to be production safe).
